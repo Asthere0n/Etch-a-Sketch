@@ -644,20 +644,15 @@ video {
 }
 
 .screen{
-  width: 90%;
-  height: 75%;
+  width: 1000px;
+  height: calc(9/16*1000px);
   background-color: white;
   display: flex;
   flex-wrap: wrap;
 }
 
 .pixel{
-  flex-basis: calc(6.25%);
-  border: 1px black solid;
-}
-
-.pixel:hover{
-  background-color: #ccc;
+  flex-basis: 6.25%;
 }
 
 .painted, .painted:hover{

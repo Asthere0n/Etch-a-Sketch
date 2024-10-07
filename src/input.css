@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.screen{
+    width: 90%;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.pixel{
+    flex-basis: calc(6.25%);
+    border: 1px black solid;
+}
+.pixel:hover{
+    background-color: #ccc;
+}
+
+.painted, .painted:hover{
+    background-color: #333;
+}
